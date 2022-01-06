@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.e77d2716.css","mappings":"AAGA","sources":["webpack://sass-test/./src/components/Button/Button.scss"],"sourcesContent":["// @import \"../assets/tokens.scss\";\n$color-neutral-200: #D9E2E7;\n\n.fds-button {\n    border: $color-neutral-200 10px solid;\n    border-width: 2px;\n}"],"names":[],"sourceRoot":""}

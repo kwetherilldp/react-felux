@@ -1,6 +1,7 @@
-@import "../assets/tokens.scss";
+// @import "../assets/tokens.scss";
+$color-neutral-200: #D9E2E7;
 
 .fds-button {
-    border: $color-neutral-200 1px solid;
+    border: $color-neutral-200 10px solid;
     border-width: 2px;
 }
