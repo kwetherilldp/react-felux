@@ -1,6 +1,6 @@
 import React from 'react';
+import "../assets/tokens.scss";
 import "./Button.scss";
-// import "./button.css";
 
 
 export const Button = ({label}) => {
