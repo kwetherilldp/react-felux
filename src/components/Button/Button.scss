@@ -1,6 +1,32 @@
-@import "../assets/tokens.scss";
+@import "../assets/base.scss";
 
 
 .fds-button {
-    border: $test 10px solid;
+    height: $button-height-medium;
+    width: $button-width-medium;
+    font-size: $font-size-400;
+    line-height: $line-height-400;
+    background-color: $color-neutral-100;
+    color: $color-black-offset;
+    border-width: $button-border-width;
+    border-radius: $button-border-radius;
+
+    &--small {
+        height: $button-height-small;
+        width: $button-width-small;
+        font-size: $font-size-300;
+        line-height: $line-height-300;
+    }
+
+    &--large {
+        height: $button-height-large;
+        width: $button-width-large;
+        font-size: $font-size-500;
+        line-height: $line-height-500;
+    }
+
+    &--primary {
+        background-color: $color-action;
+        color: $color-white;
+    }
 }

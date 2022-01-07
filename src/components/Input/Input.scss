@@ -1,0 +1,33 @@
+@import "../assets/base.scss";
+
+.fds-input {
+    height:             $input-height-medium;
+    width:              $input-width-medium;
+    font-size:          $font-size-400;
+    line-height:        $line-height-400;
+    background-color:   $color-white;
+    border-color:       $color-neutral-200;
+    color:              $color-black-offset;
+    padding:            $spacing-100 $spacing-200;
+    border-width:       $input-border-width;
+    border-radius:      $input-border-radius;
+    border-style:       $input-border-style;
+
+    &--small {
+        height:         $input-height-small;
+        width:          $input-width-small;
+        font-size:      $font-size-300;
+        line-height:    $line-height-300;
+    }
+
+    &--large {
+        height:         $input-height-large;
+        width:          $input-width-large;
+        font-size:      $font-size-500;
+        line-height:    $line-height-500;
+    }
+
+    &--rounded {
+        border-radius: $input-border-radius;
+    }
+}

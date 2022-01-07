@@ -15,11 +15,10 @@
   },
   "scripts": {
     "start": "start-storybook -p 6006 -s public",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "build-dist": "rm -rf dist && NODE_ENV=production babel src/components --out-dir dist --copy-files",
-    "build-storybook": "build-storybook -o docs",
-    "build-storybook222": "build-storybook -s public"
+    "build-docs": "build-storybook -o docs",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [

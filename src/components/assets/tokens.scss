@@ -1,3 +1,10 @@
+
+// colors
+$color-white: #FFFFFF;
+$color-white-offset: #F7F9FA;
+$color-black: #000000;
+$color-black-offset: #121617;
+
 $color-neutral-900: #121617;
 $color-neutral-800: #343F41;
 $color-neutral-700: #4B5B5D;
@@ -8,4 +15,79 @@ $color-neutral-300: #C4D3DA;
 $color-neutral-200: #D9E2E7;
 $color-neutral-100: #EFF1F3;
 $color-neutral-50: #F7F9FA;
-$test: #cc0000;
+
+$color-action: #0060F0;
+$color-action-dark: #004AB9;
+$color-action-bright: #0094FF;
+$color-action-brighter: #00C2FF;
+
+
+// spacing
+$spacing-50: 4px;
+$spacing-100: 8px;
+$spacing-200: 16px;
+$spacing-300: 24px;
+$spacing-400: 32px;
+$spacing-500: 40px;
+$spacing-600: 48px;
+
+
+// typography
+$font-size-100: 10px;
+$font-size-200: 12px;
+$font-size-300: 14px;
+$font-size-400: 16px;
+$font-size-500: 18px;
+$font-size-600: 22px;
+$font-size-700: 28px;
+$font-size-800: 36px;
+$font-size-900: 56px;
+
+$line-height-100: 12px;
+$line-height-200: 16px;
+$line-height-300: 18px;
+$line-height-400: 20px;
+$line-height-500: 22px;
+$line-height-600: 26px;
+$line-height-700: 32px;
+$line-height-800: 38px;
+$line-height-900: 56px;
+
+
+// button
+$button-height-small: 32px;
+$button-height-medium: 40px;
+$button-height-large: 48px;
+
+$button-width-smallest: 40px;
+$button-width-smaller: 80px;
+$button-width-small: 100px;
+$button-width-medium: 120px;
+$button-width-large: 140px;
+$button-width-larger: 200px;
+$button-width-largest: 260px;
+$button-width-full: 100%;
+
+$button-border-width: 0;
+$button-border-radius: 4px;
+
+
+// input size
+$input-height-small: 32px;
+$input-height-medium: 40px;
+$input-height-large: 48px;
+
+$input-width-tiny: 60px;
+$input-width-smallest: 80px;
+$input-width-smaller: 100px;
+$input-width-small: 120px;
+$input-width-medium: 140px;
+$input-width-large: 180px;
+$input-width-larger: 280px;
+$input-width-largest: 380px;
+
+$input-border-radius: 4px;
+$input-border-width: 1px;
+$input-border-style: solid;
+
+
